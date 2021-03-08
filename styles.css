@@ -52,7 +52,7 @@ body {
     align-items: center;
     border-bottom: 1px solid rgba(76, 66, 61, .1);
 } #navbar h1 {
-    font-size: xx-large;
+    font-size: 4em;
     margin: 20px 0 0 0;
 } #navbar h2 {
     margin: 10px 0;
@@ -91,10 +91,12 @@ body {
     border-radius: 2px;
     margin-top: 20px;
     padding-left: 20px;
+} .image-caption h2 {
+    font-size: 2em;
 } .image-caption p {
     padding: 0 40px 20px 20px;
     margin: 0;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 @media all and (max-width: 500px) {
@@ -104,5 +106,9 @@ body {
         display: none;
     } .subtitle1 {
         display: block;
+    }
+
+    #navbar h1 {
+        font-size: 3em;
     }
 }
