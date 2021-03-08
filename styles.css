@@ -52,9 +52,12 @@ body {
     align-items: center;
     border-bottom: 1px solid rgba(76, 66, 61, .1);
 } #navbar h1 {
+    font-size: xx-large;
     margin: 20px 0 0 0;
 } #navbar h2 {
     margin: 10px 0;
+} .subtitle1 {
+    display: none;
 }
 
 .image {
@@ -92,4 +95,14 @@ body {
     padding: 0 40px 20px 20px;
     margin: 0;
     text-align: justify;
+}
+
+@media all and (max-width: 500px) {
+    article {
+        width: 100%;
+    } .subtitle0 {
+        display: none;
+    } .subtitle1 {
+        display: block;
+    }
 }
